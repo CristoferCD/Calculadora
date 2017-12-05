@@ -8,7 +8,7 @@
 
 ../tablaSimbolos.h
 
-/mnt/hgfs/Github/Calculadora/calculadora.h
+/mnt/hgfs/GitHub/Calculadora/calculadora.h
 stdio.h
 -
 string.h
@@ -22,13 +22,13 @@ inttypes.h
 unistd.h
 -
 
-/mnt/hgfs/Github/Calculadora/cmake-build-debug/calculadora.tab.c
+/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/calculadora.tab.c
 math.h
 -
 ../calculadora.h
-/mnt/hgfs/Github/Calculadora/calculadora.h
+/mnt/hgfs/GitHub/Calculadora/calculadora.h
 ../tablaSimbolos.h
-/mnt/hgfs/Github/Calculadora/tablaSimbolos.h
+/mnt/hgfs/GitHub/Calculadora/tablaSimbolos.h
 stddef.h
 -
 libintl.h
@@ -44,11 +44,11 @@ stdlib.h
 stdio.h
 -
 
-/mnt/hgfs/Github/Calculadora/cmake-build-debug/calculadora.tab.h
+/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/calculadora.tab.h
 ../tablaSimbolos.h
-/mnt/hgfs/Github/Calculadora/tablaSimbolos.h
+/mnt/hgfs/GitHub/Calculadora/tablaSimbolos.h
 
-/mnt/hgfs/Github/Calculadora/cmake-build-debug/lex.yy.c
+/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/lex.yy.c
 stdio.h
 -
 string.h
@@ -62,19 +62,19 @@ inttypes.h
 stdlib.h
 -
 calculadora.tab.h
-/mnt/hgfs/Github/Calculadora/cmake-build-debug/calculadora.tab.h
+/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/calculadora.tab.h
 ../tablaSimbolos.h
-/mnt/hgfs/Github/Calculadora/tablaSimbolos.h
+/mnt/hgfs/GitHub/Calculadora/tablaSimbolos.h
 unistd.h
 -
 
-/mnt/hgfs/Github/Calculadora/main.c
+/mnt/hgfs/GitHub/Calculadora/main.c
 stdio.h
 -
 calculadora.tab.h
 -
 
-/mnt/hgfs/Github/Calculadora/tablaSimbolos.c
+/mnt/hgfs/GitHub/Calculadora/tablaSimbolos.c
 stdlib.h
 -
 stdio.h
@@ -84,11 +84,11 @@ string.h
 math.h
 -
 tablaSimbolos.h
-/mnt/hgfs/Github/Calculadora/tablaSimbolos.h
+/mnt/hgfs/GitHub/Calculadora/tablaSimbolos.h
 calculadora.tab.h
-/mnt/hgfs/Github/Calculadora/calculadora.tab.h
+/mnt/hgfs/GitHub/Calculadora/calculadora.tab.h
 
-/mnt/hgfs/Github/Calculadora/tablaSimbolos.h
+/mnt/hgfs/GitHub/Calculadora/tablaSimbolos.h
 
 calculadora.tab.h
 ../tablaSimbolos.h

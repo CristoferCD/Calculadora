@@ -43,10 +43,10 @@ RM = /opt/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/hgfs/Github/Calculadora
+CMAKE_SOURCE_DIR = /mnt/hgfs/GitHub/Calculadora
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/hgfs/Github/Calculadora/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/hgfs/GitHub/Calculadora/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Calculadora.dir/depend.make
@@ -58,28 +58,28 @@ include CMakeFiles/Calculadora.dir/progress.make
 include CMakeFiles/Calculadora.dir/flags.make
 
 calculadora.tab.c: ../calculadora.y
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/hgfs/Github/Calculadora/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "[BISON][MyParser] Building parser with bison 3.0.2"
-	cd /mnt/hgfs/Github/Calculadora && /usr/bin/bison --no-lines -d -d -o /mnt/hgfs/Github/Calculadora/cmake-build-debug/calculadora.tab.c calculadora.y
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "[BISON][MyParser] Building parser with bison 3.0.2"
+	cd /mnt/hgfs/GitHub/Calculadora && /usr/bin/bison --no-lines -d -d -o /mnt/hgfs/GitHub/Calculadora/cmake-build-debug/calculadora.tab.c calculadora.y
 
 calculadora.tab.h: calculadora.tab.c
 	@$(CMAKE_COMMAND) -E touch_nocreate calculadora.tab.h
 
 lex.yy.c: ../calculadora.l
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/hgfs/Github/Calculadora/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "[FLEX][MyScanner] Building scanner with flex 2.5.39"
-	cd /mnt/hgfs/Github/Calculadora && /usr/bin/flex -L --noyywrap --header-file=calculadora.h -o/mnt/hgfs/Github/Calculadora/cmake-build-debug/lex.yy.c calculadora.l
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "[FLEX][MyScanner] Building scanner with flex 2.5.39"
+	cd /mnt/hgfs/GitHub/Calculadora && /usr/bin/flex -L --noyywrap --header-file=calculadora.h -o/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/lex.yy.c calculadora.l
 
 CMakeFiles/Calculadora.dir/main.c.o: CMakeFiles/Calculadora.dir/flags.make
 CMakeFiles/Calculadora.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/Github/Calculadora/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Calculadora.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Calculadora.dir/main.c.o   -c /mnt/hgfs/Github/Calculadora/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Calculadora.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Calculadora.dir/main.c.o   -c /mnt/hgfs/GitHub/Calculadora/main.c
 
 CMakeFiles/Calculadora.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Calculadora.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/Github/Calculadora/main.c > CMakeFiles/Calculadora.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/GitHub/Calculadora/main.c > CMakeFiles/Calculadora.dir/main.c.i
 
 CMakeFiles/Calculadora.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Calculadora.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/Github/Calculadora/main.c -o CMakeFiles/Calculadora.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/GitHub/Calculadora/main.c -o CMakeFiles/Calculadora.dir/main.c.s
 
 CMakeFiles/Calculadora.dir/main.c.o.requires:
 
@@ -94,16 +94,16 @@ CMakeFiles/Calculadora.dir/main.c.o.provides.build: CMakeFiles/Calculadora.dir/m
 
 CMakeFiles/Calculadora.dir/tablaSimbolos.c.o: CMakeFiles/Calculadora.dir/flags.make
 CMakeFiles/Calculadora.dir/tablaSimbolos.c.o: ../tablaSimbolos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/Github/Calculadora/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Calculadora.dir/tablaSimbolos.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Calculadora.dir/tablaSimbolos.c.o   -c /mnt/hgfs/Github/Calculadora/tablaSimbolos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Calculadora.dir/tablaSimbolos.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Calculadora.dir/tablaSimbolos.c.o   -c /mnt/hgfs/GitHub/Calculadora/tablaSimbolos.c
 
 CMakeFiles/Calculadora.dir/tablaSimbolos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Calculadora.dir/tablaSimbolos.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/Github/Calculadora/tablaSimbolos.c > CMakeFiles/Calculadora.dir/tablaSimbolos.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/GitHub/Calculadora/tablaSimbolos.c > CMakeFiles/Calculadora.dir/tablaSimbolos.c.i
 
 CMakeFiles/Calculadora.dir/tablaSimbolos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Calculadora.dir/tablaSimbolos.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/Github/Calculadora/tablaSimbolos.c -o CMakeFiles/Calculadora.dir/tablaSimbolos.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/GitHub/Calculadora/tablaSimbolos.c -o CMakeFiles/Calculadora.dir/tablaSimbolos.c.s
 
 CMakeFiles/Calculadora.dir/tablaSimbolos.c.o.requires:
 
@@ -118,16 +118,16 @@ CMakeFiles/Calculadora.dir/tablaSimbolos.c.o.provides.build: CMakeFiles/Calculad
 
 CMakeFiles/Calculadora.dir/calculadora.tab.c.o: CMakeFiles/Calculadora.dir/flags.make
 CMakeFiles/Calculadora.dir/calculadora.tab.c.o: calculadora.tab.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/Github/Calculadora/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Calculadora.dir/calculadora.tab.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Calculadora.dir/calculadora.tab.c.o   -c /mnt/hgfs/Github/Calculadora/cmake-build-debug/calculadora.tab.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Calculadora.dir/calculadora.tab.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Calculadora.dir/calculadora.tab.c.o   -c /mnt/hgfs/GitHub/Calculadora/cmake-build-debug/calculadora.tab.c
 
 CMakeFiles/Calculadora.dir/calculadora.tab.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Calculadora.dir/calculadora.tab.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/Github/Calculadora/cmake-build-debug/calculadora.tab.c > CMakeFiles/Calculadora.dir/calculadora.tab.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/GitHub/Calculadora/cmake-build-debug/calculadora.tab.c > CMakeFiles/Calculadora.dir/calculadora.tab.c.i
 
 CMakeFiles/Calculadora.dir/calculadora.tab.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Calculadora.dir/calculadora.tab.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/Github/Calculadora/cmake-build-debug/calculadora.tab.c -o CMakeFiles/Calculadora.dir/calculadora.tab.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/GitHub/Calculadora/cmake-build-debug/calculadora.tab.c -o CMakeFiles/Calculadora.dir/calculadora.tab.c.s
 
 CMakeFiles/Calculadora.dir/calculadora.tab.c.o.requires:
 
@@ -143,16 +143,16 @@ CMakeFiles/Calculadora.dir/calculadora.tab.c.o.provides.build: CMakeFiles/Calcul
 CMakeFiles/Calculadora.dir/lex.yy.c.o: CMakeFiles/Calculadora.dir/flags.make
 CMakeFiles/Calculadora.dir/lex.yy.c.o: lex.yy.c
 CMakeFiles/Calculadora.dir/lex.yy.c.o: calculadora.tab.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/Github/Calculadora/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Calculadora.dir/lex.yy.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Calculadora.dir/lex.yy.c.o   -c /mnt/hgfs/Github/Calculadora/cmake-build-debug/lex.yy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Calculadora.dir/lex.yy.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Calculadora.dir/lex.yy.c.o   -c /mnt/hgfs/GitHub/Calculadora/cmake-build-debug/lex.yy.c
 
 CMakeFiles/Calculadora.dir/lex.yy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Calculadora.dir/lex.yy.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/Github/Calculadora/cmake-build-debug/lex.yy.c > CMakeFiles/Calculadora.dir/lex.yy.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/hgfs/GitHub/Calculadora/cmake-build-debug/lex.yy.c > CMakeFiles/Calculadora.dir/lex.yy.c.i
 
 CMakeFiles/Calculadora.dir/lex.yy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Calculadora.dir/lex.yy.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/Github/Calculadora/cmake-build-debug/lex.yy.c -o CMakeFiles/Calculadora.dir/lex.yy.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/hgfs/GitHub/Calculadora/cmake-build-debug/lex.yy.c -o CMakeFiles/Calculadora.dir/lex.yy.c.s
 
 CMakeFiles/Calculadora.dir/lex.yy.c.o.requires:
 
@@ -181,7 +181,7 @@ Calculadora: CMakeFiles/Calculadora.dir/calculadora.tab.c.o
 Calculadora: CMakeFiles/Calculadora.dir/lex.yy.c.o
 Calculadora: CMakeFiles/Calculadora.dir/build.make
 Calculadora: CMakeFiles/Calculadora.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/hgfs/Github/Calculadora/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Calculadora"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Calculadora"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Calculadora.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -203,6 +203,6 @@ CMakeFiles/Calculadora.dir/clean:
 CMakeFiles/Calculadora.dir/depend: calculadora.tab.c
 CMakeFiles/Calculadora.dir/depend: calculadora.tab.h
 CMakeFiles/Calculadora.dir/depend: lex.yy.c
-	cd /mnt/hgfs/Github/Calculadora/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/hgfs/Github/Calculadora /mnt/hgfs/Github/Calculadora /mnt/hgfs/Github/Calculadora/cmake-build-debug /mnt/hgfs/Github/Calculadora/cmake-build-debug /mnt/hgfs/Github/Calculadora/cmake-build-debug/CMakeFiles/Calculadora.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/hgfs/GitHub/Calculadora/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/hgfs/GitHub/Calculadora /mnt/hgfs/GitHub/Calculadora /mnt/hgfs/GitHub/Calculadora/cmake-build-debug /mnt/hgfs/GitHub/Calculadora/cmake-build-debug /mnt/hgfs/GitHub/Calculadora/cmake-build-debug/CMakeFiles/Calculadora.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Calculadora.dir/depend
 

@@ -35,6 +35,7 @@ imaginary_lit	({decimals}|{float_lit})i
 {int_lit}		{ yylval.numValue = atoi(yytext); printf("[int]Getting llval %d and text %s\n", yylval.numValue, yytext); return NUMBER; }
 {identifier}	{ return ts_get(&yylval, yytext); }
 "\n"			{ return LINEBREAK; }
+[\t ]           /* Ignore whitespaces and tabs */
 .				{ return *yytext; }
 
 %%
@@ -50,9 +51,11 @@ int ts_get (YYSTYPE *yylval, char* yytext) {
 	} else { // Not found in symbol table -> new id.
 		itemNode* newNode;
 		node_create(&newNode);
-		newNode->key = yytext;
+		newNode->key = strdup(yytext);
 		newNode->id = ID;
+		newNode->numValue = 0;
 		symbolTable_insert(newNode);
+		yylval->symNode = newNode;
 		return ID;
 	}	
 }

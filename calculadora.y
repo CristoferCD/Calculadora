@@ -16,6 +16,7 @@
 
 %type <numValue> exp
 
+%left '='
 %left '-' '+'
 %left '*' '/'
 %right '^'
@@ -31,9 +32,9 @@ line:	LINEBREAK
 	| exp LINEBREAK { printf (">>  %g\n", $1); }
 ;
 
-exp:	NUMBER				{ $$ = $1; }
-	|	ID					{ $$ = $1->numValue; }
-	|	ID '=' exp			{ $$ = $3; $1->numValue = $3; }
+exp:	NUMBER				{ printf("Parsing number %g\n", $1); $$ = $1; }
+	|	ID					{ printf("Parsing identifier: %g\n", $1->numValue); $$ = $1->numValue; }
+	|	ID '=' exp			{ printf("Parsing assignment %g = %g\n", $1->key, $3); $$ = $3; $1->numValue = $3; }
 	|	FUNC '(' exp ')' 	{ $$ = (*((*$1).function))($3); }
 	| exp '+' exp			{ $$ = $1 + $3; printf("parsing sum %f+%f\n",$1, $3);}
 	| exp '-' exp			{ $$ = $1 - $3; }

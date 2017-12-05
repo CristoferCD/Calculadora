@@ -6,5 +6,5 @@ C_FLAGS = -g   -std=gnu11
 
 C_DEFINES = 
 
-C_INCLUDES = -I/mnt/hgfs/Github/Calculadora/cmake-build-debug 
+C_INCLUDES = -I/mnt/hgfs/GitHub/Calculadora/cmake-build-debug 
 

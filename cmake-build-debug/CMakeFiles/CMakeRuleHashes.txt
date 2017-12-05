@@ -1,3 +1,3 @@
 # Hashes of file build rules.
-67e72ab2ca393b13710a1979d5b9bf1f calculadora.tab.c
-b6c69a0f39e2caa87b10b767904b3cdd lex.yy.c
+327de4eeedaecb531895e0fd09f0ea11 calculadora.tab.c
+d0a0eab9bf13ceb2a36b341503da43e2 lex.yy.c
