@@ -29,7 +29,7 @@ imaginary_lit	({decimals}|{float_lit})i
 
 %%
 
-"q"|"Q"			{ return QUIT; }
+"exit"			{ return QUIT; }
 {imaginary_lit}		/* not implemented */
 {float_lit}		{ yylval.numValue = atof(yytext); printf("[float]Getting llval %lf and text %s\n", yylval.numValue, yytext); return NUMBER; }
 {int_lit}		{ yylval.numValue = atoi(yytext); printf("[int]Getting llval %d and text %s\n", yylval.numValue, yytext); return NUMBER; }

@@ -10,7 +10,7 @@ BISON_TARGET(MyParser calculadora.y ${CMAKE_CURRENT_BINARY_DIR}/calculadora.tab.
 FLEX_TARGET(MyScanner calculadora.l ${CMAKE_CURRENT_BINARY_DIR}/lex.yy.c COMPILE_FLAGS "-L --noyywrap --header-file=calculadora.h")
 ADD_FLEX_BISON_DEPENDENCY(MyScanner MyParser)
 
-set(SOURCE_FILES main.c tablaSimbolos.h tablaSimbolos.c calculadora.h ${BISON_MyParser_OUTPUTS} ${FLEX_MyScanner_OUTPUTS})
+set(SOURCE_FILES main.c tablaSimbolos.h tablaSimbolos.c calculadora.h ${BISON_MyParser_OUTPUTS} ${FLEX_MyScanner_OUTPUTS} funciones.c funciones.h)
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
 add_executable(Calculadora ${SOURCE_FILES})

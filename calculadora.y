@@ -25,11 +25,11 @@
 %%
 input:	/* empty */
 	| input line
-	| QUIT	{ printf ("Saliendo...\n"); exit(0); }
 ;
 
 line:	LINEBREAK
 	| exp LINEBREAK { printf (">>  %g\n", $1); }
+	| QUIT LINEBREAK    { printf ("Saliendo...\n"); exit(0); }
 ;
 
 exp:	NUMBER				{ printf("Parsing number %g\n", $1); $$ = $1; }

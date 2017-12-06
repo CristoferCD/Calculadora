@@ -104,6 +104,12 @@
 		<Unit filename="/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/lex.yy.c.rule">
 			<Option target="Calculadora"/>
 		</Unit>
+		<Unit filename="/mnt/hgfs/GitHub/Calculadora/funciones.c">
+			<Option target="Calculadora"/>
+		</Unit>
+		<Unit filename="/mnt/hgfs/GitHub/Calculadora/funciones.h">
+			<Option target="Calculadora"/>
+		</Unit>
 		<Unit filename="/mnt/hgfs/GitHub/Calculadora/main.c">
 			<Option target="Calculadora"/>
 		</Unit>

@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/Calculadora.dir/main.c.o CMakeFiles/Calculadora.dir/tablaSimbolos.c.o CMakeFiles/Calculadora.dir/calculadora.tab.c.o CMakeFiles/Calculadora.dir/lex.yy.c.o  -o Calculadora -lm 
+/usr/bin/cc -g   CMakeFiles/Calculadora.dir/main.c.o CMakeFiles/Calculadora.dir/tablaSimbolos.c.o CMakeFiles/Calculadora.dir/calculadora.tab.c.o CMakeFiles/Calculadora.dir/lex.yy.c.o CMakeFiles/Calculadora.dir/funciones.c.o  -o Calculadora -lm 

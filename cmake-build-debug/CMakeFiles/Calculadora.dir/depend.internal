@@ -5,6 +5,9 @@ CMakeFiles/Calculadora.dir/calculadora.tab.c.o
  /mnt/hgfs/GitHub/Calculadora/calculadora.h
  /mnt/hgfs/GitHub/Calculadora/cmake-build-debug/calculadora.tab.c
  /mnt/hgfs/GitHub/Calculadora/tablaSimbolos.h
+CMakeFiles/Calculadora.dir/funciones.c.o
+ /mnt/hgfs/GitHub/Calculadora/funciones.c
+ /mnt/hgfs/GitHub/Calculadora/funciones.h
 CMakeFiles/Calculadora.dir/lex.yy.c.o
  /mnt/hgfs/GitHub/Calculadora/cmake-build-debug/calculadora.tab.h
  /mnt/hgfs/GitHub/Calculadora/cmake-build-debug/lex.yy.c
@@ -15,6 +18,7 @@ CMakeFiles/Calculadora.dir/main.c.o
  calculadora.tab.h
 CMakeFiles/Calculadora.dir/tablaSimbolos.c.o
  ../tablaSimbolos.h
+ /mnt/hgfs/GitHub/Calculadora/funciones.h
  /mnt/hgfs/GitHub/Calculadora/tablaSimbolos.c
  /mnt/hgfs/GitHub/Calculadora/tablaSimbolos.h
  calculadora.tab.h

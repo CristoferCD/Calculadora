@@ -4,6 +4,7 @@
 #include <math.h>
 #include "tablaSimbolos.h"
 #include "calculadora.tab.h"
+#include "funciones.h"
 
 struct treeNode{
     itemNode* info;
@@ -62,21 +63,25 @@ double mySin(double value) {
 
 void symbolTable_init() {
     tableRoot = malloc(sizeof(abb*));
-    itemNode *aux = NULL;
-    node_create(&aux);
-    aux->key = "sin";
-    aux->id = FUNC;
-    aux->function = mySin;
-    symbolTable_insert(aux);
-    /*int i = 0;
-    node aux;
-    while(reservedWords_lexComp[i] != -42) {
+    int i = 0;
+    while(functionPointers[i] != NULL) {
+        itemNode *aux = NULL;
         node_create(&aux);
-        node_setKey(&aux, reservedWords[i]);
-        node_setId(&aux, reservedWords_lexComp[i]);
+        aux->key = functionKeys[i];
+        aux->function = functionPointers[i];
+        aux->id = FUNC;
         symbolTable_insert(aux);
         i++;
-    }*/
+    }
+    i = 0;
+    while(constantValues[i] != 0) {
+        itemNode *aux = NULL;
+        node_create(&aux);
+        aux->key = reservedConstants[i];
+        aux->numValue = constantValues[i];
+        aux->id = ID;
+        i++;
+    }
 }
 
 

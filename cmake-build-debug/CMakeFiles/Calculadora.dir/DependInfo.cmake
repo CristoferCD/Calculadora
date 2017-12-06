@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/calculadora.tab.c" "/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/CMakeFiles/Calculadora.dir/calculadora.tab.c.o"
+  "/mnt/hgfs/GitHub/Calculadora/funciones.c" "/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/CMakeFiles/Calculadora.dir/funciones.c.o"
   "/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/lex.yy.c" "/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/CMakeFiles/Calculadora.dir/lex.yy.c.o"
   "/mnt/hgfs/GitHub/Calculadora/main.c" "/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/CMakeFiles/Calculadora.dir/main.c.o"
   "/mnt/hgfs/GitHub/Calculadora/tablaSimbolos.c" "/mnt/hgfs/GitHub/Calculadora/cmake-build-debug/CMakeFiles/Calculadora.dir/tablaSimbolos.c.o"

@@ -150,6 +150,33 @@ calculadora.tab.c.s:
 	$(MAKE) -f CMakeFiles/Calculadora.dir/build.make CMakeFiles/Calculadora.dir/calculadora.tab.c.s
 .PHONY : calculadora.tab.c.s
 
+funciones.o: funciones.c.o
+
+.PHONY : funciones.o
+
+# target to build an object file
+funciones.c.o:
+	$(MAKE) -f CMakeFiles/Calculadora.dir/build.make CMakeFiles/Calculadora.dir/funciones.c.o
+.PHONY : funciones.c.o
+
+funciones.i: funciones.c.i
+
+.PHONY : funciones.i
+
+# target to preprocess a source file
+funciones.c.i:
+	$(MAKE) -f CMakeFiles/Calculadora.dir/build.make CMakeFiles/Calculadora.dir/funciones.c.i
+.PHONY : funciones.c.i
+
+funciones.s: funciones.c.s
+
+.PHONY : funciones.s
+
+# target to generate assembly for a file
+funciones.c.s:
+	$(MAKE) -f CMakeFiles/Calculadora.dir/build.make CMakeFiles/Calculadora.dir/funciones.c.s
+.PHONY : funciones.c.s
+
 lex.yy.o: lex.yy.c.o
 
 .PHONY : lex.yy.o
@@ -243,6 +270,9 @@ help:
 	@echo "... calculadora.tab.o"
 	@echo "... calculadora.tab.i"
 	@echo "... calculadora.tab.s"
+	@echo "... funciones.o"
+	@echo "... funciones.i"
+	@echo "... funciones.s"
 	@echo "... lex.yy.o"
 	@echo "... lex.yy.i"
 	@echo "... lex.yy.s"

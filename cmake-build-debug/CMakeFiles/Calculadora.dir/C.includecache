@@ -68,6 +68,16 @@ calculadora.tab.h
 unistd.h
 -
 
+/mnt/hgfs/GitHub/Calculadora/funciones.c
+funciones.h
+/mnt/hgfs/GitHub/Calculadora/funciones.h
+math.h
+/mnt/hgfs/GitHub/Calculadora/math.h
+stdlib.h
+-
+
+/mnt/hgfs/GitHub/Calculadora/funciones.h
+
 /mnt/hgfs/GitHub/Calculadora/main.c
 stdio.h
 -
@@ -87,6 +97,8 @@ tablaSimbolos.h
 /mnt/hgfs/GitHub/Calculadora/tablaSimbolos.h
 calculadora.tab.h
 /mnt/hgfs/GitHub/Calculadora/calculadora.tab.h
+funciones.h
+/mnt/hgfs/GitHub/Calculadora/funciones.h
 
 /mnt/hgfs/GitHub/Calculadora/tablaSimbolos.h
 

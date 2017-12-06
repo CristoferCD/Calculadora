@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Calculadora.dir/tablaSimbolos.c.o"
   "CMakeFiles/Calculadora.dir/calculadora.tab.c.o"
   "CMakeFiles/Calculadora.dir/lex.yy.c.o"
+  "CMakeFiles/Calculadora.dir/funciones.c.o"
   "Calculadora.pdb"
   "Calculadora"
 )
