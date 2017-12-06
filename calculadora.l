@@ -34,8 +34,8 @@ imaginary_lit	({decimals}|{float_lit})i
 "help"          { printHelp(); }
 "input ".*"\n"  { loadFile(yytext); }
 {imaginary_lit}		/* not implemented */
-{float_lit}		{ yylval.numValue = atof(yytext); printf("[float]Getting llval %lf and text %s\n", yylval.numValue, yytext); return NUMBER; }
-{int_lit}		{ yylval.numValue = atoi(yytext); printf("[int]Getting llval %d and text %s\n", yylval.numValue, yytext); return NUMBER; }
+{float_lit}		{ yylval.numValue = atof(yytext); /*printf("[float]Getting llval %lf and text %s\n", yylval.numValue, yytext);*/ return NUMBER; }
+{int_lit}		{ yylval.numValue = atoi(yytext); /*printf("[int]Getting llval %d and text %s\n", yylval.numValue, yytext);*/ return NUMBER; }
 {identifier}	{ return ts_get(&yylval, yytext); }
 "\n"			{ return LINEBREAK; }
 [\t ]           /* Ignore whitespaces and tabs */
@@ -84,6 +84,7 @@ void loadFile(char* yytext) {
     char* inputString = strdup(yytext);
     while(*inputString != ' ') inputString++;
     inputString++;
+    inputString[strlen(inputString) - 1] = 0;
     FILE* file = fopen(inputString, "r");
     if (file) {
         yyin = file;

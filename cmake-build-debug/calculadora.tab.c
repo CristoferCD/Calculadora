@@ -1234,19 +1234,19 @@ yyreduce:
 
   case 7:
 
-    { printf("Parsing number %g\n", (yyvsp[0].numValue)); (yyval.numValue) = (yyvsp[0].numValue); }
+    { /*printf("Parsing number %g\n", $1);*/ (yyval.numValue) = (yyvsp[0].numValue); }
 
     break;
 
   case 8:
 
-    { printf("Parsing identifier: %g\n", (yyvsp[0].symNode)->numValue); (yyval.numValue) = (yyvsp[0].symNode)->numValue; }
+    { /*printf("Parsing identifier: %g\n", $1->numValue);*/ (yyval.numValue) = (yyvsp[0].symNode)->numValue; }
 
     break;
 
   case 9:
 
-    { printf("Parsing assignment %g = %g\n", (yyvsp[-2].symNode)->key, (yyvsp[0].numValue)); (yyval.numValue) = (yyvsp[0].numValue); (yyvsp[-2].symNode)->numValue = (yyvsp[0].numValue); }
+    { /*printf("Parsing assignment %g = %g\n", $1->key, $3);*/ (yyval.numValue) = (yyvsp[0].numValue); (yyvsp[-2].symNode)->numValue = (yyvsp[0].numValue); }
 
     break;
 
@@ -1258,7 +1258,7 @@ yyreduce:
 
   case 11:
 
-    { (yyval.numValue) = (yyvsp[-2].numValue) + (yyvsp[0].numValue); printf("parsing sum %f+%f\n",(yyvsp[-2].numValue), (yyvsp[0].numValue));}
+    { (yyval.numValue) = (yyvsp[-2].numValue) + (yyvsp[0].numValue); /*printf("parsing sum %f+%f\n",$1, $3);*/ }
 
     break;
 

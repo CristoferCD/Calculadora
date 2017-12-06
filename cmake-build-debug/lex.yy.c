@@ -797,11 +797,11 @@ YY_RULE_SETUP
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-{ yylval.numValue = atof(yytext); printf("[float]Getting llval %lf and text %s\n", yylval.numValue, yytext); return NUMBER; }
+{ yylval.numValue = atof(yytext); /*printf("[float]Getting llval %lf and text %s\n", yylval.numValue, yytext);*/ return NUMBER; }
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-{ yylval.numValue = atoi(yytext); printf("[int]Getting llval %d and text %s\n", yylval.numValue, yytext); return NUMBER; }
+{ yylval.numValue = atoi(yytext); /*printf("[int]Getting llval %d and text %s\n", yylval.numValue, yytext);*/ return NUMBER; }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
@@ -1859,7 +1859,7 @@ void loadFile(char* yytext) {
     char* inputString = strdup(yytext);
     while(*inputString != ' ') inputString++;
     inputString++;
-    inputString[strlen(inputString)-1] = 0;
+    inputString[strlen(inputString) - 1] = 0;
     FILE* file = fopen(inputString, "r");
     if (file) {
         yyin = file;
