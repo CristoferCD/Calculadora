@@ -80,6 +80,7 @@ void symbolTable_init() {
         aux->key = reservedConstants[i];
         aux->numValue = constantValues[i];
         aux->id = ID;
+        symbolTable_insert(aux);
         i++;
     }
 }

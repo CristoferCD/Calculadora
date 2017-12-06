@@ -11,6 +11,7 @@ CMakeFiles/Calculadora.dir/funciones.c.o
 CMakeFiles/Calculadora.dir/lex.yy.c.o
  /mnt/hgfs/GitHub/Calculadora/cmake-build-debug/calculadora.tab.h
  /mnt/hgfs/GitHub/Calculadora/cmake-build-debug/lex.yy.c
+ /mnt/hgfs/GitHub/Calculadora/funciones.h
  /mnt/hgfs/GitHub/Calculadora/tablaSimbolos.h
 CMakeFiles/Calculadora.dir/main.c.o
  ../tablaSimbolos.h

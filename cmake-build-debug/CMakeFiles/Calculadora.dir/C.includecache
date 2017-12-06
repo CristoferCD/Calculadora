@@ -65,6 +65,8 @@ calculadora.tab.h
 /mnt/hgfs/GitHub/Calculadora/cmake-build-debug/calculadora.tab.h
 ../tablaSimbolos.h
 /mnt/hgfs/GitHub/Calculadora/tablaSimbolos.h
+../funciones.h
+/mnt/hgfs/GitHub/Calculadora/funciones.h
 unistd.h
 -
 
